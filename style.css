@@ -1,0 +1,36 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 45px;
+}
+.headingcolor{
+    color: coral;
+}
+.parajustification{
+    text-align: justify;
+}
+.orderbutton{
+    text-decoration: none;
+    background-image: linear-gradient(coral,rgb(224, 95, 44));
+    border-radius: 5%;
+    padding: 10px 50px;
+    margin-left: 250px;
+    color: white;    
+}
+section{
+    display: flex;
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+}
+.width{
+    width: 80%;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+section img{
+    margin-right: 250px;
+    width: 90%;
+    height: auto;
+    margin-left: 250px;
+}
