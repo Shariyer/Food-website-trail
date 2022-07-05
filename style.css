@@ -18,7 +18,7 @@ h1{
     margin-left: 250px;
     color: white;    
 }
-section{
+.flexible-container{
     display: flex;
     background-image: url(images/shapes/Frame\ 59.jpg);
     background-repeat: no-repeat;
@@ -33,4 +33,48 @@ section img{
     width: 90%;
     height: auto;
     margin-left: 250px;
+
+}
+.image-width{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    
+}
+.recepi-image{
+    align-items: center;
+    justify-content: center;
+    
+}
+.item-description{
+    margin-left: 300px;
+    padding-right: 2px;
+    text-align: left;
+    
+}
+.recepies-section{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    
+}
+.footer-section{
+    
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 20px gray;
+    margin-bottom: 50px;
+    
+}
+footer{
+    text-align: center;
+    justify-content: center;
+
+}
+.margin{
+    margin: 50px;
 }
